@@ -1,0 +1,17 @@
+﻿<Window x:Class="IS5Praktinis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IS5Praktinis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="20">
+            <Button Content="Add Password" Click="AddPasswordButton_Click" />
+            <Button Content="Search Password" Click="SearchPasswordButton_Click" Margin="0,10,0,0"/>
+            <Button Content="Update Password" Click="UpdatePasswordButton_Click" Margin="0,10,0,0"/>
+            <Button Content="Delete Password" Click="DeletePasswordButton_Click" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
